@@ -1,1 +1,3 @@
-# currency_converter
+### `yarn install`
+
+### `yarn start`
