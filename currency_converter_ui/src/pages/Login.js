@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { Redirect, useLocation } from 'react-router-dom';
 import 'antd/dist/antd.css';
 import { Button, Form, Input } from 'antd';
-import Preloader from '../components/Preloader';
+import Preloader from '../components/loader/Preloader';
 import { AuthContext } from '../contexts/AuthContext.js';
 import logoContass from '../assets/logo_contass.png';
 import Swal from 'sweetalert2';
