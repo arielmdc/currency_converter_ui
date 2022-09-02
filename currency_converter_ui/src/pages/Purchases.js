@@ -100,7 +100,6 @@ function Purchases() {
         .then((res) => {
           let options2 = [];
           Object.entries(res.data).forEach(([key, item]) => {
-            // console.log(item);
             options2.push(
               createData(
                 dataFormat(item.created_at),

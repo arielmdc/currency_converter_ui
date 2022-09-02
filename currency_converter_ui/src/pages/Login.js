@@ -40,7 +40,6 @@ function Login() {
         setUserId(data.id);
         setUserEmail(data.email);
         setUserName(data.name);
-        // setUserRoles(data.response.roles);
         setIsAuthenticated(true);
       } else {
         Swal.fire({
