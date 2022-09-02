@@ -1,0 +1,61 @@
+@import '~antd/dist/antd.less';
+@import '../src/pages/Login.less';
+@import '../src/pages/Purchases.less';
+
+.container {
+  display: grid;
+  grid-template-columns: 300px 1fr 0.5fr;
+  grid-auto-rows: 100vh;
+  grid-template-areas: 'left-grid middle-grid right-grid';
+  overflow: auto;
+}
+
+.left-grid {
+  grid-area: left-grid;
+  display: flex;
+  overflow: auto;
+  justify-content: flex-end;
+  box-shadow: -9px -18px 17px 0px #303030;
+}
+
+.middle-grid {
+  grid-area: middle-grid;
+  display: grid;
+}
+
+.middle-box > * {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+.middle-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px;
+}
+
+.middle-tittle {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.right-grid {
+  grid-area: right-grid;
+  display: flex;
+  justify-content: flex-start;
+  overflow: auto;
+  flex-direction: column;
+  border-left: 1px solid #97909047;
+  text-align: center;
+}
+
+.right-grid-info-box {
+  margin: 24px;
+}
+
+.right-grid-tittle {
+  margin: 24px 24px 0 24px;
+}
