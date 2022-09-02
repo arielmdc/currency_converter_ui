@@ -3,7 +3,7 @@ import { Route, Redirect } from 'react-router-dom';
 import { AuthContext } from '../contexts/AuthContext.js';
 
 import LayoutBase from '../components/layoutBaseComponents/LayoutBase';
-import Preloader from '../components/Preloader';
+import Preloader from '../components/loader/Preloader';
 
 function PrivateRoute(props) {
   const { component, ...rest } = props;
